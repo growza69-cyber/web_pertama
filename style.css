@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background kuning transparan */
+body {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 0, 0.4),
+        rgba(255, 255, 0, 0.2)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container utama */
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+/* Nama */
+.nama {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+/* Subjudul */
+.subjudul {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Menu tombol */
+.menu {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Card seperti icon HP */
+.card {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background: rgba(255, 255, 0, 0.6);
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 0, 0.8);
+}
+
+/* Konten */
+.konten {
+    margin-top: 20px;
+    text-align: left;
+    background: rgba(255,255,255,0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
